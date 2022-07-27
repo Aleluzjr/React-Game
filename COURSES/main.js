@@ -13,6 +13,7 @@ $root.insertAdjacentHTML(
         ${BoardScore()}
         ${BoardGame(2)}
 
+
     `
 )
 
