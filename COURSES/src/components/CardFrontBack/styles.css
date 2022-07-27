@@ -1,0 +1,15 @@
+.card-front-back{
+        --width: 130px;
+        --height: 160px;
+    transform-style: preserve-3d;
+    position: relative;
+    width: var(--width);
+    height: var(--height) ;
+}
+
+.card-front-back > .card-front
+.card-front-back > .card-back{
+    position: absolute;
+
+}
+    

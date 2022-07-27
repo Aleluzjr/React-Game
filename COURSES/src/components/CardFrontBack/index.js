@@ -4,10 +4,12 @@ import "./styles.css"
 function CardFrontBack(){
     return /*html*/ `
         <article class = "card-front-back">
-            ${CardGame()}
-            ${CardGame("logo-js", "Logo do JavaScript")}
-            ${CardGame("logo-css", "Logo do CSS")}
-            ${CardGame("logo-html", "Logo do HTML")}
+            <div class = "card-front">
+                ${CardGame()}
+            </div>
+            <div class = "card-back">
+                ${CardGame("logo-js", "Logo do JavaScript")}
+            </div>
         </article>
 
     `
