@@ -7,7 +7,6 @@ function CardFrontBack(){
     window.handleClick = () => {
         console.log('Foi')
     }
-
     return /*html*/ `
         <article class = "card-front-back" onClick="handleClick()">
             <div class = "card  -front">
