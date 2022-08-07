@@ -5,11 +5,12 @@
     height: var(--height) ;
     transform-style: preserve-3d;
     position: relative;
-    transition: transform 400ms cubic-bezier(.42,0,.54,1.68)
+    transition: transform 400ms cubic-bezier(.42,0,.54,1.68);
+    cursor: pointer;
     
 }
 
-.card-front-back .-active{
+.card-front-back.-active{
     transform: rotateY(180deg);
 }
 
